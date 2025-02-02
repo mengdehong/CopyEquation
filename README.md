@@ -45,4 +45,4 @@ edge://extensions
 
 如果您遇到任何问题或有建议，请随时通过提交[pull request]（https://github.com/Foxxey/Karteikarte.com-Import-Script/pulls）来贡献。如果有，请更新舱单。通过在次要版本中添加1来创建Json。
 
-请给[原作者](https://github.com/Foxxey/CopyEquation)star:blush:
+请给[原作者](https://github.com/Foxxey/CopyEquation)star
