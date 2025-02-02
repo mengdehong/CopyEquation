@@ -1,37 +1,46 @@
-## Information
+## 介绍
 
-This extension allows you to copy equations from ChatGPT and Wikipedia into Word (aka. the MathML format) and as LaTeX. It supports both the white and dark mode of the ChatGPT GUI and the [Darkreader extension](https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh) for the Wikipedia website (and the ChatGPT one if you're really into that). If you wanna use multiline pasting into MS Word, you can only do this on Windows using the [PasteEquation Extension](https://github.com/Foxxey/PasteEquation) (and having this extension installed as well of course).
+这个扩展允许你从ChatGPT和维基百科复制方程到Word(又名MathML格式)和LaTeX格式。它支持ChatGPT GUI的白色和黑暗模式，以及维基百科网站的[Darkreader扩展](https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)（以及ChatGPT之一，如果你真的喜欢它）。如果你想使用多行粘贴到MS Word，你只能在Windows上使用[PasteEquation扩展](https://github.com/Foxxey/PasteEquation)（当然也有这个扩展安装）。
 
-## Installation
+**本分支额外支持deepseek公式复制**
 
-If you're using Firefox visit https://addons.mozilla.org/addon/copyequation/. It also works for the Android version of Firefox which is the only mobile version this extension supports. For desktop Chromium-based browsers follow these steps to download and install the extension:
+## 安装
 
-### Step 1: Clone the Repository
+如果您使用Firefox，请访问https://addons.mozilla.org/addon/copyequation/。它也适用于Android版本的Firefox，这是唯一的移动版本这个扩展支持。对于基于chromium的桌面版浏览器，请按照以下步骤下载和安装该扩展：
 
-Open your terminal and run the following command to clone the repository:
+### 步骤1：克隆存储库
+
+打开终端并运行以下命令克隆仓库：
 
 ```bash
 git clone https://github.com/Foxxey/ChatGPT-LaTeX-MathML-Copy.git
 ```
 
-### Step 2: Navigate to the Extension Page
+当然你也可以下载zip包到本地，并解压
 
-Open your Chromium-based browser (Chrome, Edge, Brave etc.) and go to the extensions page by entering the following URL in the address bar:
+### 步骤2：进入“扩展”页面
+
+打开基于chromium的浏览器（Chrome、Edge、Brave等），在地址栏中输入以下URL，进入扩展页面：
 
 ```url
 chrome://extensions
+edge://extensions
 ```
 
-Make sure the "Developer mode" is turned on.
+![image-20250202172353348](https://wenmou-1313491726.cos.ap-shanghai.myqcloud.com/img/image-20250202172353348.png?imageSlim)
 
-### Step 3: Load the Extension
+确保打开“开发者模式”。
 
-Click on the "Load unpacked" button and select the directory where you cloned the repository. This will load the extension into your browser.
+### 步骤3：加载扩展
 
-## How to Use
+点击“Load unpack”按钮并选择克隆存储库的目录。这将加载扩展到您的浏览器。
 
-After installing the extension, visit ChatGPT or Wikipedia. When you see a mathematical expression, right-click on it. You should see an option to copy either the LaTeX or Word/MathML data. Alternatively you can click on one of the icons next to where it says "ChatGPT" to copy a whole message with the equations (Word/MathML for this "multiline" option only works on Windows using a [MS Word Extension](https://github.com/Foxxey/PasteEquation)). Now you can paste it into Word or your favorite TeX distribution. Have fun!
+## 如何使用
+
+安装扩展后，访问ChatGPT、维基百科、DeepSeek。当你看到一个数学表达式时，右键单击它。您应该看到一个复制LaTeX或Word/MathML数据的选项。或者，您可以单击“ChatGPT”旁边的图标之一，以复制带有等式的完整消息（用于此“多行”选项的Word/MathML仅在使用[MS Word扩展]（https://github.com/Foxxey/PasteEquation）的Windows上工作）。现在您可以将其粘贴到Word或您最喜欢的TeX分发。玩得开心!
 
 ![HowTo](https://github.com/Foxxey/CopyEquation/assets/66215329/36c32793-9779-4a0f-a48a-5ebe57b8da91)
 
-If you encounter any issues or have suggestions, feel free to contribute by submitting a [pull request](https://github.com/Foxxey/Karteikarte.com-Import-Script/pulls). If you do please update the manifest.json by adding 1 to the minor version.
+![image-20250202172754385](https://wenmou-1313491726.cos.ap-shanghai.myqcloud.com/img/image-20250202172754385.png?imageSlim)
+
+如果您遇到任何问题或有建议，请随时通过提交[pull request]（https://github.com/Foxxey/Karteikarte.com-Import-Script/pulls）来贡献。如果有，请更新舱单。通过在次要版本中添加1来创建Json。
